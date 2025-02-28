@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import gymLogo from '../assets/gym-logo.PNG';
 
 const Hero = () => {
   return (
@@ -17,7 +18,7 @@ const Hero = () => {
           <h3 className="facility-text">TRAINING FACILITY</h3>
           <a href="https://g.co/kgs/tegBghB" target="_blank" rel="noopener noreferrer">
             <img 
-              src="/gym-logo.png" 
+              src={gymLogo}
               alt="Training Facility" 
               className="gym-logo"
             />
