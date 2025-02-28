@@ -8,6 +8,16 @@
   gap: 30px;
 }
 
+.promo-text {
+  text-align: center;
+  margin: -30px auto 40px;
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  max-width: 800px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
 .feature-card {
   background-color: var(--white);
   padding: 40px 30px;
@@ -32,15 +42,85 @@
   font-size: 1.5rem;
   margin-bottom: 15px;
   font-weight: 700;
+  color: #222;
 }
 
 .feature-card p {
-  color: #666;
+  color: #444;
   font-size: 1rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.feature-card .pricing {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+.pricing-note {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.free-session-text {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--primary-color);
 }
 
 @media (max-width: 768px) {
   .features-grid {
     grid-template-columns: 1fr;
   }
+}
+
+.senior-training-section {
+  margin-top: 60px;
+  padding: 30px;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.senior-training-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #222;
+  font-weight: 800;
+}
+
+.senior-training-section p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.senior-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 25px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.senior-link:hover {
+  background-color: #ff3333;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 } 

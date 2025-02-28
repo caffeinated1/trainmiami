@@ -13,6 +13,16 @@ const Hero = () => {
           <a href="#join" className="btn btn-primary">Start Your Journey</a>
           <a href="#services" className="btn btn-secondary">Explore Programs</a>
         </div>
+        <div className="gym-location">
+          <p className="facility-text">TRAINING FACILITY:</p>
+          <a href="https://g.co/kgs/tegBghB" target="_blank" rel="noopener noreferrer">
+            <img 
+              src="/gym-logo.png" 
+              alt="Training Facility" 
+              className="gym-logo"
+            />
+          </a>
+        </div>
       </div>
     </section>
   );
