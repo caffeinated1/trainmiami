@@ -7,8 +7,10 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <h2>TRAINMIAMI</h2>
+            <h2>TRAINMIAMI.COM</h2>
             <p>Transform your body. Transform your life.</p>
+            <h2>TRAINSENIOR.COM</h2>
+            <p>Made for Grandma and Grandpa.</p>
           </div>
           
           <div className="footer-links">
