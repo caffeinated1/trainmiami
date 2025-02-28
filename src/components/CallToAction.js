@@ -30,8 +30,9 @@ const CallToAction = () => {
     const service = formData.get('service');
     
     if (isMobile) {
-      // On mobile, initiate a phone call
-      window.location.href = `tel:7868040689`;
+      // On mobile, send a text message
+      const message = `Hi, I'm ${name} and I'm interested in a free consultation for ${service} training.`;
+      window.location.href = `sms:7868040689?body=${encodeURIComponent(message)}`;
     } else {
       // On desktop, send an email
       const subject = `Consultation Request from ${name}`;
@@ -58,7 +59,7 @@ const CallToAction = () => {
               <option value="nutrition">Nutrition Planning</option>
             </select>
             <button type="submit" className="btn btn-primary">
-              {isMobile ? "Call For Free Consultation" : "Get Your Free Consultation"}
+              {isMobile ? "Text For Free Consultation" : "Get Your Free Consultation"}
             </button>
           </form>
         </div>
